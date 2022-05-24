@@ -4,7 +4,7 @@
 // Time: O(n * n log n) => O(n log n)
 // Space: O(n)
 
-    vector<int> sortedSquares(vector<int>& nums) {
+    vector<int> sortedSquaresNaive(vector<int>& nums) {
             // Creating a new vector "squaredNums" || Space: O(n)
             vector<int> squaredNums(nums.size());
             // Traversing the array or vector takes O(n), n = input size
@@ -24,7 +24,7 @@
 // Time: O(n)
 // Space: O(n)
 
-    vector<int> sortedSquares(vector<int>& nums) {
+    vector<int> sortedSquaresOptimal(vector<int>& nums) {
             // Creating a new vector "squaredNums" || Space: O(n)
             vector<int> squaredNums(nums.size());
             int leftPointer = 0;    // leftPointer starts at the first index (left-most position)
